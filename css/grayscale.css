@@ -273,6 +273,26 @@
   color: #fff;
 }
 
+.features-icons {
+  padding-top: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
@@ -301,4 +321,12 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.rewire-out {
+  color: #16aefa;
+}
+
+.rewire-in {
+  color: #82b54e;
 }
